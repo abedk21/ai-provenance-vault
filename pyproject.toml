@@ -1,0 +1,10 @@
+[project]
+name = "ai-provenance-vault"
+version = "0.1.0"
+description = "Educational SHA-256 Merkle manifests and HMAC artifact verification"
+requires-python = ">=3.11"
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["provenance_vault"]
